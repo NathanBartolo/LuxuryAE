@@ -1,9 +1,7 @@
 import { useState } from 'react';
 import { motion } from 'framer-motion';
 import { cn } from '../../lib/utils.js';
-import hairCategory from '../../assets/images/category-hair.svg';
-import oralCategory from '../../assets/images/category-oral.svg';
-import beautyCategory from '../../assets/images/category-beauty.svg';
+import essentialImage from '../../assets/brands/1.webp';
 
 const defaultTabs = [
   {
@@ -12,7 +10,7 @@ const defaultTabs = [
     content: (
       <div className="grid gap-6 lg:grid-cols-2 lg:items-center">
         <img
-          src={hairCategory}
+          src={essentialImage}
           alt="Premium hair care products"
           className="h-64 w-full rounded-lg object-cover shadow-[0_0_20px_rgba(0,0,0,0.12)] ring-1 ring-white/10"
         />
@@ -37,7 +35,7 @@ const defaultTabs = [
     content: (
       <div className="grid gap-6 lg:grid-cols-2 lg:items-center">
         <img
-          src={oralCategory}
+          src={essentialImage}
           alt="Luxury oral care collection"
           className="h-64 w-full rounded-lg object-cover shadow-[0_0_20px_rgba(0,0,0,0.12)] ring-1 ring-white/10"
         />
@@ -62,7 +60,7 @@ const defaultTabs = [
     content: (
       <div className="grid gap-6 lg:grid-cols-2 lg:items-center">
         <img
-          src={beautyCategory}
+          src={essentialImage}
           alt="Premium beauty essentials collection"
           className="h-64 w-full rounded-lg object-cover shadow-[0_0_20px_rgba(0,0,0,0.12)] ring-1 ring-white/10"
         />
