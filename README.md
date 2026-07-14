@@ -50,3 +50,13 @@ npm run dev
 ```bash
 npm run build
 ```
+
+## Neon PostgreSQL
+
+Create a `.env.local` file from `.env.example` and add your Neon connection string:
+
+```bash
+NEON_DATABASE_URL="postgresql://USER:PASSWORD@HOST/DB?sslmode=require"
+```
+
+The serverless health check is available at `/api/health` when deployed on Vercel.
