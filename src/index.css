@@ -6,6 +6,13 @@
 
 html {
   scroll-behavior: smooth;
+  font-size: 17px;
+}
+
+@media (min-width: 1280px) {
+  html {
+    font-size: 18px;
+  }
 }
 
 body {
@@ -14,6 +21,7 @@ body {
   background-color: #f8f5ef;
   color: #111111;
   font-family: 'Manrope', 'Segoe UI', sans-serif;
+  line-height: 1.65;
 }
 
 * {
