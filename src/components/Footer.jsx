@@ -7,7 +7,7 @@ function Footer() {
         <div className="grid gap-10 md:grid-cols-2 lg:grid-cols-5">
           <div>
             <div className="flex items-center gap-3">
-              <img src={luxuryLogo} alt="Luxury UAE logo" className="h-16 w-auto object-contain" />
+              <img src={luxuryLogo} alt="Luxury UAE logo" className="h-m w-auto object-contain" />
             </div>
           </div>
 
