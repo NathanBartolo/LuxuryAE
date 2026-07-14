@@ -1,0 +1,7 @@
+<svg width="800" height="900" viewBox="0 0 800 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="900" fill="#F8F5EF"/>
+  <rect x="70" y="70" width="660" height="760" rx="18" fill="#E9E0D1"/>
+  <rect x="280" y="210" width="240" height="430" rx="30" fill="#C6AB76"/>
+  <rect x="320" y="160" width="160" height="70" rx="12" fill="#1C3528"/>
+  <text x="130" y="770" fill="#1C3528" font-size="36" font-family="serif">Product Placeholder</text>
+</svg>
